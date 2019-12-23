@@ -722,7 +722,7 @@ decide方法的三个参数中：
 为了体现差异，我们需要两个账户admin和test，然后给他们分别设置角色ROLE_ADMIN和ROLE_TEST。然后每个角色设置一个资源：
 
 rolename | realmname | resource
-| :--: | :--: | 
+| :---: | :---: | 
 ROLE_ADMIN | /account/admin | /account/admin
 ROLE_ADMIN | /account/test | /account/test
 ROLE_TEST |  /account/test | /account/test
